@@ -9,3 +9,6 @@
 6. 반복문을 통해서 메인 서버의 /publish API를 호출합니다.
 ( 메인 서버의 /publish API는 SSE 연결중인 현재 서버의 접속한 사용자들에게 실시간으로 알림을 전송합니다.)
 7. 위 과정을 수행한 후, 다음 주기까지 스케줄러는 대기를 합니다.
+
+다음 경로에 실제 로직이 있습니다.
+com/snowhub/resort/domain/slope/apensia/
